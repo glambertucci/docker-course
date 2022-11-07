@@ -1,5 +1,5 @@
 # Ejercicio 2
-`docker pull nicopaez/pingapp`
+`docker pull nicopaez/pingapp:3.0.0`
 
 `docker login`
 
