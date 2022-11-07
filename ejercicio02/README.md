@@ -11,5 +11,5 @@
 # Para descargarlo
 `docker pull glambertucci/dockercourse:latest`
 
-#link a dockerhub
-##https://hub.docker.com/repository/docker/glambertucci/dockercourse
+# Link a dockerhub
+https://hub.docker.com/repository/docker/glambertucci/dockercourse
