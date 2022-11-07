@@ -1,15 +1,15 @@
-#Ejercicio 2
-##docker pull nicopaez/pingapp
+# Ejercicio 2
+`docker pull nicopaez/pingapp`
 
-##docker login
+`docker login`
 
-##docker tag nicopaez/pingapp:latest glambertucci/dockercourse
+`docker tag nicopaez/pingapp:latest glambertucci/dockercourse`
 
-##docker push glambertucci/dockercourse:latest
+`docker push glambertucci/dockercourse:latest`
 
 
-#Para descargarlo
-##docker pull glambertucci/dockercourse:latest
+# Para descargarlo
+`docker pull glambertucci/dockercourse:latest`
 
 #link a dockerhub
 ##https://hub.docker.com/repository/docker/glambertucci/dockercourse
