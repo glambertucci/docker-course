@@ -1,9 +1,6 @@
 Comando: `docker inspect nicopaez/passwordapi-java:java8-fabric`
 Response: 
-`[
-    {
-        ...
-
+`[    {
         "RootFS": {
             "Type": "layers",
             "Layers": [
@@ -22,8 +19,8 @@ Response:
     }
 ]`
 Comando: `docker inspect nicopaez/passwordapi-java:java8-alpine`
-response `[
-    {
+Response:
+`[    {
         ...
         "RootFS": {
             "Type": "layers",
