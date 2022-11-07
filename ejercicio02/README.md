@@ -1,9 +1,15 @@
-docker pull nicopaez/pingapp
-docker login
-docker tag nicopaez/pingapp:latest glambertucci/dockercourse
-docker push glambertucci/dockercourse:latest
+#Ejercicio 2
+##docker pull nicopaez/pingapp
 
-docker pull glambertucci/dockercourse:latest
+##docker login
 
-link a dockerhub
-//https://hub.docker.com/repository/docker/glambertucci/dockercourse
+##docker tag nicopaez/pingapp:latest glambertucci/dockercourse
+
+##docker push glambertucci/dockercourse:latest
+
+
+#Para descargarlo
+##docker pull glambertucci/dockercourse:latest
+
+#link a dockerhub
+##https://hub.docker.com/repository/docker/glambertucci/dockercourse
