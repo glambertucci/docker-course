@@ -2,6 +2,8 @@
 ## Lo primero es ir a este sitio
 https://catalog.redhat.com/software/containers/redhat-openjdk-18/openjdk18-openshift/58ada5701fbe981673cd6b10
 De ahi buscas la manera de registrarte con un usuario, te haces el usuario, aceptas terminos y condiciones que esta en otra pagina, y despues tiras un 
+`docker login registry.redhat.io`
+y despues
 `docker pull registry.redhat.io/redhat-openjdk-18/openjdk18-openshift:1.15-1`
 y es importante ponerlo bien en el dockerfile
 ## Despues haces la imagen igual que en el 4
