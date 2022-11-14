@@ -3,7 +3,7 @@
 `docker build -t app.jar . --build-arg JAR_FILE=./passwordapi.jar`
 ## Luego de corre la imagen creada
 `docker run -d -p 8080:8080 app.jar`
-## Una vez que funciona se debe logear en dockerhub
+## Una vez que se verifica el funcionamiento yendo  a http://localhost:8080/. Se debe logear en dockerhub
 `docker login`
 ## Yo en particular le tuve que cambiar el nombre, lo podria haber hecho bien desde el vamos
 `docker tag app.jar:latest glambertucci/app.jar`
